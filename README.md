@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Enumerable
-In this project we will learn how to use a module inside the class. we will create a class MyList and a module MyEnumerable. The module MyEnumerable will implement a subset of the functionality of Enumerable.
+# Morse-Code
+Decode a Morse code message
+
 
 ## Built With
 - RUBY
@@ -17,11 +18,11 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 1. Clone the repo in your local machine:
 ```bash
-git clone https://github.com/muskan2532150/Enumerable.git
+git clone https://github.com/muskan2532150/Morse-Code.git
 ```
 2. Open terminal and cd into project and install the dependencies
 ```bash
-cd Enumerable
+cd Morse-Code
 npm install
 ```
 
@@ -31,13 +32,24 @@ npm run build
 npm start
 ```
 
-## Author
+## Authors
+
+### Author 1
 
 👤 **Muskan Gupta**
 
 - GitHub: [@github](https://github.com/muskan2532150)
 - Twitter: [@twitter](muskan2532150)
 - Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
+
+###  Author 2
+
+👤 **Abel Gebeyehu**
+
+
+- GitHub: [@AbelG101](https://github.com/AbelG101)
+- LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
+
 
 ## 🤝 Contributing
 
