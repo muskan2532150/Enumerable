@@ -2,18 +2,19 @@ require_relative 'my_enumerable'
 class MyList
   include MyEnumerable
 
-  def initialize(list)
-    @list = list
+  def initialize(*args)
+    @list = []
+    args.each { |arg| @list << arg }
   end
 
   attr_reader :list
 
   def each
-    puts yield @list if block_given?
+    yield "<MyList: @list=#{@list}>"
   end
 end
 
-list = MyList.new([1, 2, 3, 4])
+list = MyList.new(1, 2, 3, 4)
 # puts list.list
 
 list.each { |n| puts n }
